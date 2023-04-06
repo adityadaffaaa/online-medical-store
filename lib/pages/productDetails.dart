@@ -586,7 +586,7 @@ class productDetails extends StatelessWidget {
 
     Widget footer() {
       return InkWell(
-        onTap: () => null,
+        onTap: () => {Navigator.pushNamed(context, "/cart")},
         child: Container(
           margin: EdgeInsets.only(bottom: 24, right: 24, left: 24),
           decoration: BoxDecoration(boxShadow: [
